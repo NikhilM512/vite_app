@@ -2,7 +2,8 @@ import React, { useEffect, useState } from 'react'
 
 const useState3 = () => {
 
-    const [count, setCount] = useState(0);
+    const [state, setState] = useState(0);
+    const [like, setLike] = useState(0);
 
   useEffect(() => {
     // This effect will run after every render
